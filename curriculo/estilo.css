@@ -224,3 +224,10 @@ li a:hover {
 .pagCurso{
   background-color: rgb(205, 253, 253);
 }
+.certificados11{
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 1000px;
+  top: 1500px;
+}
