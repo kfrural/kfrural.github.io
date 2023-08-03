@@ -214,6 +214,13 @@
   left: 500px;
   top: 2000px;
 }
+.certificados14{
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 1000px;
+  top: 2000px;
+}
 ul {
   list-style-type: none;
   margin: 0;
