@@ -13,15 +13,15 @@ efetivamente para o setor de tecnologia da informação. Acredito que a tecnolog
 tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ativo nessa transformação.
 
 ## Formação
-<b> Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas <br> </b>
+* <b> Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas <br> </b>
  Bacharelado, Engenharia de Software <br>
  jul de 2022 - jan de 2026
 
- <b> Estácio <br> </b>
+ * <b> Estácio <br> </b>
  Bacharelado, Ciência da Computação <br>
  mar de 2023 - dez de 2026
 
- <b> SENAI Visconde do Rio Branco CFP SÍLVIO BENATTI <br> </b>
+ * <b> SENAI Visconde do Rio Branco CFP SÍLVIO BENATTI <br> </b>
  Técnico, Alimentos <br>
  out de 2021 - abr de 2023
 
@@ -32,21 +32,21 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   Rio Pomba, Minas Gerais, Brasil
 
   ## Cursos
-  Aceleração Internacional DIO - Integrating SQL 
+  * Aceleração Internacional DIO - Integrating SQL 
   Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) ) <br>
-  Potência Tech Angular Developer - 
+  * Potência Tech Angular Developer - 
   Powered by iFood ([Certificado](certificados/AngularDeveloperIFod.pdf) ) <br>
-  Orange Tech + | BackEnd ([Certificado](certificados/backendInter.pdf) ) <br>
-  CC50: Introdução à Ciência da Computação - O Curso 
+  * Orange Tech + | BackEnd ([Certificado](certificados/backendInter.pdf) ) <br>
+  * CC50: Introdução à Ciência da Computação - O Curso 
   de Harvard, no Brasil ([Certificado](certificados/CertificadoHarvard.pdf) ) <br>
-  Potência Tech powered by iFood | Ciências de
+  * Potência Tech powered by iFood | Ciências de
   Dados com Python ([Certificado](certificados/CienciaDeDados.pdf) ) <br>
-  Bootcamp Cloud AWS ([Certificado](certificados/CloudAWS.pdf) ) <br>
-  Descubra a Nuvem AWS - Nexa Resources ([Certificado](certificados/DescubraNuvemAWS.pdf) ) <br>
-  Desenvolvimento Java com Cloud AWS ([Certificado](certificados/DesenvJavaAWS.pdf) ) <br>
-  Potência Tech iFood - Desenvolvimento de Jogos ([Certificado](certificados/desenvJogosWeb.pdf) ) <br>
-  Banco PAN Java Developer ([Certificado](certificados/javaDeveloperPAN.pdf) ) <br>
-  Bootcamp Microsoft Dynamics 365 ([Certificado](certificados/MicrosoftDynamics365.pdf) ) <br>
+  * Bootcamp Cloud AWS ([Certificado](certificados/CloudAWS.pdf) ) <br>
+  * Descubra a Nuvem AWS - Nexa Resources ([Certificado](certificados/DescubraNuvemAWS.pdf) ) <br>
+  * Desenvolvimento Java com Cloud AWS ([Certificado](certificados/DesenvJavaAWS.pdf) ) <br>
+  * Potência Tech iFood - Desenvolvimento de Jogos ([Certificado](certificados/desenvJogosWeb.pdf) ) <br>
+  * Banco PAN Java Developer ([Certificado](certificados/javaDeveloperPAN.pdf) ) <br>
+  * Bootcamp Microsoft Dynamics 365 ([Certificado](certificados/MicrosoftDynamics365.pdf) ) <br>
 
   ## Eventos
   
