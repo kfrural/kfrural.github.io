@@ -36,7 +36,23 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) ) <br>
   Potência Tech Angular Developer - 
   Powered by iFood ([Certificado](certificados/AngularDeveloperIFod.pdf) ) <br>
-  Orange Tech + | BackEnd ([Certificado](certificados/backend-inter.pdf) ) <br>
+  Orange Tech + | BackEnd ([Certificado](certificados/backendInter.pdf) ) <br>
   CC50: Introdução à Ciência da Computação - O Curso 
   de Harvard, no Brasil ([Certificado](certificados/CertificadoHarvard.pdf) ) <br>
+  Potência Tech powered by iFood | Ciências de
+  Dados com Python ([Certificado](certificados/CienciaDeDados.pdf) ) <br>
+  Bootcamp Cloud AWS ([Certificado](certificados/CloudAWS.pdf) ) <br>
+  Descubra a Nuvem AWS - Nexa Resources ([Certificado](certificados/DescubraNuvemAWS.pdf) ) <br>
+  Desenvolvimento Java com Cloud AWS ([Certificado](certificados/DesenvJavaAWS.pdf) ) <br>
+  Potência Tech iFood - Desenvolvimento de Jogos ([Certificado](certificados/desenvJogosWeb.pdf) ) <br>
+  Banco PAN Java Developer ([Certificado](certificados/javaDeveloperPAN.pdf) ) <br>
+  Bootcamp Microsoft Dynamics 365 ([Certificado](certificados/MicrosoftDynamics365.pdf) ) <br>
+
+  ## Eventos
+  
+  
+  
+  
+  
+  
   
