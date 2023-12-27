@@ -33,5 +33,7 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
 
   ## Cursos
   Aceleração Internacional DIO - Integrating SQL 
-  Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) )
+  Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) ) <br>
+  Potência Tech Angular Developer - Powered by iFood ([Certificado](certificados/AngularDeveloperIFod.pdf) ) <br>
+  Orange Tech + | BackEnd ([Certificado](certificados/backend-inter.pdf) ) <br>
   
