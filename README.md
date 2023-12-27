@@ -3,7 +3,8 @@ Desenvolvedora na EmComp - Empresa Júnior da Computação
 
 :house: São Geraldo/MG <br>
 :iphone: (32) 9 9845-4978 <br>
-:envelope: kferreira_@outlook.com
+:envelope: kferreira_@outlook.com <br>
+:link: https://www.linkedin.com/in/karla-ferreira-rural/ 
 
 Estudante de Ciência da Computação e Engenharia de Software apaixonada por tecnologia e programação,
 especialmente pela área de automação e desenvolvimento de sistemas. Atualmente,
@@ -23,3 +24,9 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
  <b> SENAI Visconde do Rio Branco CFP SÍLVIO BENATTI <br> </b>
  Técnico, Alimentos <br>
  out de 2021 - abr de 2023
+
+ ## Experiência
+ <b> Desenvolvedora (Voluntária)<br> </b>
+  EmComp - Empresa Júnior da Computação - Tempo Integral <br>
+  mai de 2023 - até o momento <br>
+  Rio Pomba, Minas Gerais, Brasil
