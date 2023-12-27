@@ -1,0 +1,25 @@
+# Karla C. Ferreira
+Desenvolvedora na EmComp - Empresa Júnior da Computação
+
+:house: São Geraldo/MG <br>
+:iphone: (32) 9 9845-4978 <br>
+:envelope: kferreira_@outlook.com
+
+Estudante de Ciência da Computação e Engenharia de Software apaixonada por tecnologia e programação,
+especialmente pela área de automação e desenvolvimento de sistemas. Atualmente,
+estou focada em desenvolver minhas habilidades e conhecimentos para contribuir 
+efetivamente para o setor de tecnologia da informação. Acredito que a tecnologia 
+tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ativo nessa transformação.
+
+## Formação
+<b> Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas <br> </b>
+ Bacharelado, Engenharia de Software <br>
+ jul de 2022 - jan de 2026
+
+ <b> Estácio <br> </b>
+ Bacharelado, Ciência da Computação <br>
+ mar de 2023 - dez de 2026
+
+ <b> SENAI Visconde do Rio Branco CFP SÍLVIO BENATTI <br> </b>
+ Técnico, Alimentos <br>
+ out de 2021 - abr de 2023
