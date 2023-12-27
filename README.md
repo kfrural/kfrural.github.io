@@ -4,7 +4,7 @@ Desenvolvedora na EmComp - Empresa Júnior da Computação
 :house: São Geraldo/MG <br>
 :iphone: (32) 9 9845-4978 <br>
 :envelope: kferreira_@outlook.com <br>
-:link: https://www.linkedin.com/in/karla-ferreira-rural/ 
+:link: [LinkedIn](https://www.linkedin.com/in/karla-ferreira-rural/) 
 
 Estudante de Ciência da Computação e Engenharia de Software apaixonada por tecnologia e programação,
 especialmente pela área de automação e desenvolvimento de sistemas. Atualmente,
@@ -49,7 +49,11 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   * Bootcamp Microsoft Dynamics 365 ([Certificado](certificados/MicrosoftDynamics365.pdf) ) <br>
 
   ## Eventos
-  Hackathon em parceria com a Pif Paf Alimentos ([Certificado](eventos/HackathonPifPaf.pdf) ) <br>
+  * Hackathon em parceria com a Pif Paf Alimentos ([Certificado](eventos/HackathonPifPaf.pdf) ) <br>
+
+  ## Projetos
+  * Criação do sistema para o NAP Univiçosa em conjunto com outros estudantes ([Link do projeto](https://github.com/kfrural/projeto-nap/)) <br>
+  * Criação do jogo de xadrez na linguagem C++ ([Link do projeto](https://github.com/kfrural/xadrezinho/) <br>
   
   
   
