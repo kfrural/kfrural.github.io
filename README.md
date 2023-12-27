@@ -53,7 +53,7 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
 
   ## Projetos
   * Criação do sistema para o NAP Univiçosa em conjunto com outros estudantes ([Link do projeto](https://github.com/kfrural/projeto-nap/)) <br>
-  * Criação do jogo de xadrez na linguagem C++ ([Link do projeto](https://github.com/kfrural/xadrezinho/) <br>
+  * Criação do jogo de xadrez na linguagem C++ ([Link do projeto](https://github.com/kfrural/xadrezinho/)) <br>
   
   
   
