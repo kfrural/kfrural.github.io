@@ -49,6 +49,7 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   * Bootcamp Microsoft Dynamics 365 ([Certificado](certificados/MicrosoftDynamics365.pdf) ) <br>
 
   ## Eventos
+  Hackathon em parceria com a Pif Paf Alimentos ([Certificado](eventos/HackathonPifPaf.pdf) ) <br>
   
   
   
