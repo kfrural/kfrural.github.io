@@ -30,3 +30,8 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   EmComp - Empresa Júnior da Computação - Tempo Integral <br>
   mai de 2023 - até o momento <br>
   Rio Pomba, Minas Gerais, Brasil
+
+  ## Cursos
+  Aceleração Internacional DIO - Integrating SQL 
+  Databases with Python and MongoDB
+  
