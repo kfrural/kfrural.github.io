@@ -1,0 +1,366 @@
+.capa {
+    background-image: url("https://nossaenergia.petrobras.com.br/media/uploads/posts_tiny/2021/10/Header_Materias_TECNOLOGIA_v3_eventos_1.png.1920x0_q85_crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100vw;
+}
+@media (max-width: 600px) {
+    .capa {
+        width: 100%;
+    }
+ }
+ 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 54, 54, .8);
+    box-shadow: 0px 0px 10px 10px #00c3ff;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px;
+    width: 85vw;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: #0059ff;
+}
+
+.tt {
+    text-align: center;
+    font-family: cursive;
+}
+
+.curso {
+    float: left;
+    background-color: rgb(54, 54, 54, .8);
+    box-shadow: 0px 0px 10px 10px #00c3ff;
+    position: absolute;
+    display: flex;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+    padding: 15px;
+    width: 85vw;
+    height: 128vw;
+}
+
+@media (max-width: 600px) {
+    .certificados {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .certificados1 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 500px;
+    }
+
+    .certificados2 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1000px;
+    }
+
+    .certificados3 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1500px;
+    }
+
+    .certificados4 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2000px;
+    }
+
+    .certificados5 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2500px;
+    }
+
+    .certificados6 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3000px;
+    }
+
+    .certificados7 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3500px;
+    }
+
+    .certificados8 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 4000px;
+    }
+
+    .certificados9 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 4500px;
+    }
+
+    .certificados10 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5000px;
+    }
+
+    .certificados11 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5500px;
+    }
+
+    .certificados12 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6000px;
+    }
+
+    .certificados13 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6500px;
+    }
+
+    .certificados14 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 7000px;
+    }
+}
+
+
+.certificados {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+}
+
+.certificados1 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.certificados2 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+}
+
+.certificados3 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    top: 520px;
+}
+
+.certificados4 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
+}
+
+.certificados5 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+    top: 500px;
+}
+
+.certificados6 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    top: 1000px;
+}
+
+.certificados7 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1000px;
+}
+
+.certificados8 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+    top: 1000px;
+}
+
+.certificados9 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    top: 1500px;
+}
+
+.certificados10 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1500px;
+}
+
+.certificados11 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+    top: 1500px;
+}
+
+.certificados12 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    top: 2000px;
+}
+
+.certificados13 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2000px;
+}
+
+.certificados14 {
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+    top: 2000px;
+}
