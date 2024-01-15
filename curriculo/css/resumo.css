@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    float: left;
+    width: 20%;
+ }
+ 
+ main {
+    float: right;
+    width: 80%;
+ }
+ @media screen and (max-width: 600px) {
+    nav, main {
+        float: none;
+        width: 100%;
+    }
+ }
+  
