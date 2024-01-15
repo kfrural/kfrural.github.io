@@ -6,6 +6,7 @@
     height: 100vh;
     max-width: 100vw;
 }
+<<<<<<< HEAD
 
 ul {
     background-color: rgb(54, 54, 54, .8);
@@ -15,6 +16,28 @@ ul {
     position: absolute;
     border-radius: 1vw;
     padding: 0.8vw;
+=======
+@media (max-width: 600px) {
+    .capa {
+        width: 100%;
+    }
+ }
+ 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 54, 54, .8);
+    box-shadow: 0px 0px 10px 10px #00c3ff;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px;
+>>>>>>> refs/remotes/origin/main
     width: 85vw;
 }
 
@@ -23,9 +46,16 @@ li {
 }
 
 li a {
+<<<<<<< HEAD
     color: white;
     text-align: center;
     padding: 7.4vw 7.6vw;
+=======
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+>>>>>>> refs/remotes/origin/main
     text-decoration: none;
 }
 
@@ -53,6 +83,7 @@ li a:hover {
     width: 85vw;
     height: 128vw;
 }
+<<<<<<< HEAD
 .certificado{
     width: 21vw;
     height: 16vw;
@@ -60,6 +91,161 @@ li a:hover {
 .descricao{
     font-size: 1.5vw;
 }
+=======
+
+@media (max-width: 600px) {
+    .certificados {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .certificados1 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 500px;
+    }
+
+    .certificados2 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1000px;
+    }
+
+    .certificados3 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1500px;
+    }
+
+    .certificados4 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2000px;
+    }
+
+    .certificados5 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2500px;
+    }
+
+    .certificados6 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3000px;
+    }
+
+    .certificados7 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3500px;
+    }
+
+    .certificados8 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 4000px;
+    }
+
+    .certificados9 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 4500px;
+    }
+
+    .certificados10 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5000px;
+    }
+
+    .certificados11 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5500px;
+    }
+
+    .certificados12 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6000px;
+    }
+
+    .certificados13 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6500px;
+    }
+
+    .certificados14 {
+        text-align: center;
+        color: #fff;
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 7000px;
+    }
+}
+
+
+>>>>>>> refs/remotes/origin/main
 .certificados {
     text-align: center;
     color: #fff;
@@ -68,6 +254,10 @@ li a:hover {
     left: 25%;
     transform: translateX(-75%);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
 .certificados1 {
     text-align: center;
     color: #fff;
@@ -93,7 +283,11 @@ li a:hover {
     position: absolute;
     left: 25%;
     transform: translateX(-75%);
+<<<<<<< HEAD
     top: 28vw;
+=======
+    top: 520px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados4 {
@@ -103,7 +297,11 @@ li a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     top: 28vw;
+=======
+    top: 500px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados5 {
@@ -113,7 +311,11 @@ li a:hover {
     position: absolute;
     left: 75%;
     transform: translateX(-25%);
+<<<<<<< HEAD
     top: 28vw;
+=======
+    top: 500px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados6 {
@@ -123,7 +325,11 @@ li a:hover {
     position: absolute;
     left: 25%;
     transform: translateX(-75%);
+<<<<<<< HEAD
     top: 51vw;
+=======
+    top: 1000px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados7 {
@@ -133,7 +339,11 @@ li a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     top: 51vw;
+=======
+    top: 1000px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados8 {
@@ -143,7 +353,11 @@ li a:hover {
     position: absolute;
     left: 75%;
     transform: translateX(-25%);
+<<<<<<< HEAD
     top: 51vw;
+=======
+    top: 1000px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados9 {
@@ -153,7 +367,11 @@ li a:hover {
     position: absolute;
     left: 25%;
     transform: translateX(-75%);
+<<<<<<< HEAD
     top: 78vw;
+=======
+    top: 1500px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados10 {
@@ -163,7 +381,11 @@ li a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     top: 78vw;
+=======
+    top: 1500px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados11 {
@@ -173,7 +395,11 @@ li a:hover {
     position: absolute;
     left: 75%;
     transform: translateX(-25%);
+<<<<<<< HEAD
     top: 78vw;
+=======
+    top: 1500px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados12 {
@@ -183,7 +409,11 @@ li a:hover {
     position: absolute;
     left: 25%;
     transform: translateX(-75%);
+<<<<<<< HEAD
     top: 103vw;
+=======
+    top: 2000px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados13 {
@@ -193,7 +423,11 @@ li a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     top: 103vw;
+=======
+    top: 2000px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .certificados14 {
@@ -203,5 +437,9 @@ li a:hover {
     position: absolute;
     left: 75%;
     transform: translateX(-25%);
+<<<<<<< HEAD
     top: 103vw;
+=======
+    top: 2000px;
+>>>>>>> refs/remotes/origin/main
 }

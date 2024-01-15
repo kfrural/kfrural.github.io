@@ -14,12 +14,13 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
 
 ## Formação
 * <b> Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas <br> </b>
+ Bacharelado, Ciência da Computação <br>
+ mar de 2023 - dez de 2026
+
+ * <b> Estácio <br> </b>
  Bacharelado, Engenharia de Software <br>
  jul de 2022 - jan de 2026
 
- * <b> Estácio <br> </b>
- Bacharelado, Ciência da Computação <br>
- mar de 2023 - dez de 2026
 
  * <b> SENAI Visconde do Rio Branco CFP SÍLVIO BENATTI <br> </b>
  Técnico, Alimentos <br>
