@@ -1,0 +1,115 @@
+.capa {
+    background-image: url("https://nossaenergia.petrobras.com.br/media/uploads/posts_tiny/2021/10/Header_Materias_TECNOLOGIA_v3_eventos_1.png.1920x0_q85_crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+  }
+  
+  .educacao {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 2vw;
+    padding: 1vw;
+    width: 40vw;
+    height: 33vw;
+  }
+  
+  .logos {
+    float: left;
+    position: absolute;
+    border-radius: 1vw;
+    height: 8vw;
+    width: 10.5vw;
+  }
+  .curso1{
+    position: absolute;
+    left: 13vw;
+  }
+  .curso2{
+    position: absolute;
+    left: 13vw;
+    top: 10vw;
+  }
+  .curso3{
+    position: absolute;
+    left: 13vw;
+    top: 19vw
+  }
+  .titulo {
+    font-size: 2vw;
+    font-style: oblique;
+    white-space: nowrap;
+  }
+  
+  p {
+    left: 20vw;
+    font-size: 1.1vw;
+    white-space: nowrap;
+  }
+  
+  .bt1 {
+    position: absolute;
+    left: 25%;
+    transform: translateX(-75%);
+    top: 28.5vw;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9vw;
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0vw 0vw 0.3vw 0.3vw #00c3ff;
+    display: flex;
+    border-radius: 0.2vw;
+    padding: 0.3vw;
+    width: 4.5vw;
+    height: 2.2vw;
+  }
+  
+  .bt1:hover,
+  .bt2:hover,
+  .bt3:hover {
+    color: #fff;
+  }
+  
+  .bt2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 28.5vw;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9vw;
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0vw 0vw 0.3vw 0.3vw #00c3ff;
+    display: flex;
+    border-radius: 0.2vw;
+    padding: 0.3vw;
+    width: 4.5vw;
+    height: 2.2vw;
+  }
+  
+  .bt3 {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-25%);
+    top: 28.5vw;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9vw;
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0vw 0vw 0.3vw 0.3vw #00c3ff;
+    display: flex;
+    border-radius: 0.2vw;
+    padding: 0.3vw;
+    width: 4.5vw;
+    height: 2.2vw;
+  }
