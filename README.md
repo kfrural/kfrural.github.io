@@ -33,13 +33,14 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   Rio Pomba, Minas Gerais, Brasil
 
   ## Cursos
+  * CC50: Introdução à Ciência da Computação - O Curso 
+  de Harvard, no Brasil ([Certificado](certificados/CertificadoHarvard.pdf) ) <br>
+  * Formação Cybersecurity Specialist ([Certificado](certificados/FormacaoCiberseguranca.pdf) ) <br>
   * Aceleração Internacional DIO - Integrating SQL 
   Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) ) <br>
   * Potência Tech Angular Developer - 
   Powered by iFood ([Certificado](certificados/AngularDeveloperIFod.pdf) ) <br>
   * Orange Tech + | BackEnd ([Certificado](certificados/backendInter.pdf) ) <br>
-  * CC50: Introdução à Ciência da Computação - O Curso 
-  de Harvard, no Brasil ([Certificado](certificados/CertificadoHarvard.pdf) ) <br>
   * Potência Tech powered by iFood | Ciências de
   Dados com Python ([Certificado](certificados/CienciaDeDados.pdf) ) <br>
   * Bootcamp Cloud AWS ([Certificado](certificados/CloudAWS.pdf) ) <br>
