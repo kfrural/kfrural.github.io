@@ -36,6 +36,8 @@ tem o poder de transformar o mundo e estou ansiosa para desempenhar um papel ati
   * CC50: Introdução à Ciência da Computação - O Curso 
   de Harvard, no Brasil ([Certificado](certificados/CertificadoHarvard.pdf) ) <br>
   * Formação Cybersecurity Specialist ([Certificado](certificados/FormacaoCiberseguranca.pdf) ) <br>
+  * Formação Linux Fundamentals ([Certificado](certificados/FormacaoLinux.pdf) ) <br>
+  * Formação React Developer ([Certificado](certificados/FormacaoReact.pdf) ) <br>
   * Aceleração Internacional DIO - Integrating SQL 
   Databases with Python and MongoDB ([ Certificado](certificados/AceleracaoSQL.pdf) ) <br>
   * Potência Tech Angular Developer - 
