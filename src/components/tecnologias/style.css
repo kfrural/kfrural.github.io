@@ -1,0 +1,41 @@
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--current-line);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.tecnologias h2 {
+  color: var(--pink);
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  color: var(--foreground);
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.imgLogo {
+  width: auto;
+  height: 40px;
+  margin-right: 5px;
+  filter: invert(100%);
+}
+

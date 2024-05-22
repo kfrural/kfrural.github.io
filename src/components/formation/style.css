@@ -1,0 +1,44 @@
+.formation-section {
+  background-color: var(--current-line);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.formation-section h3 {
+  color: var(--pink);
+  font-family: 'Fira Code', monospace;
+}
+
+.formation-section h4 {
+  color: var(--cyan);
+  margin-bottom: 5px;
+}
+
+.formation-section p {
+  color: var(--comment);
+  line-height: 1.6;
+}
+
+.formation-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.formation-section li {
+  color: var(--foreground);
+  margin-bottom: 20px;
+}
+
+.formation-section h2 {
+  font-size: 1.8rem;
+}
+
+.formation-section h3 {
+  font-size: 1.4rem;
+}
+
+.formation-section p {
+  font-size: 1.2rem;
+}
