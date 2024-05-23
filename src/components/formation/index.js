@@ -11,6 +11,7 @@ const Formation = () => {
                     <h4>Instituto Federal da Educação, Ciência e Tecnologia do Sudeste de Minas</h4>
                     <p>Março, 2023 - cursando</p>
                 </li>
+                
                 <li>
                     <h3>Engenharia de Software</h3>
                     <h4>Estácio</h4>

@@ -24,15 +24,22 @@
 .formation-section ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .formation-section li {
   color: var(--foreground);
   margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .formation-section h2 {
   font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .formation-section h3 {
