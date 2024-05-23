@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--current-line);
+  padding: 20px;
+}
+
+.header h1 {
+  color: var(--pink);
+  font-family: 'Fira Code', monospace;
+  transition: text-shadow 0.3s ease;
+  margin-right: auto;
+}
+
+.header h1:hover {
+  text-shadow: 0 0 0.8px var(--cyan), 0 0 1.8px var(--cyan), 0 0 2.8px var(--cyan), 0 0 3.8px var(--cyan), 0 0 6.8px var(--cyan), 0 0 7.8px var(--cyan), 0 0 0.8px var(--cyan), 0 0 1.5px var(--cyan);
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header li {
+  margin-right: 50px;
+}
+
+.header a {
+  color: var(--foreground);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header a:hover {
+  color: var(--purple);
+}

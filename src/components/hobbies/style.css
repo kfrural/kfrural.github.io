@@ -1,0 +1,40 @@
+.backend-interests-hobbies {
+  background-color: var(--current-line);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.backend-interests-hobbies h3 {
+  color: var(--pink);
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 20px;
+}
+
+.backend-interests-hobbies h4 {
+  color: var(--cyan);
+  margin-bottom: 5px;
+}
+
+.backend-interests-hobbies p {
+  color: var(--comment);
+  line-height: 1.6;
+}
+
+.backend-interests-hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.backend-interests-hobbies li {
+  color: var(--foreground);
+  margin-bottom: 20px;
+}
+
+.backend-interests-hobbies .interest-item {
+  background-color: var(--current-line);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

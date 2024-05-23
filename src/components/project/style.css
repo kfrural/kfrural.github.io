@@ -1,0 +1,65 @@
+.projetos {
+  background-color: var(--current-line);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.projetos h2 {
+  color: var(--pink);
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 20px;
+}
+
+.projetos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projetos li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--foreground);
+  background-color: var(--background);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.projetos li img {
+  width: 220px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.projetos li img:hover {
+  box-shadow: 0 0 20px var(--comment);
+}
+
+.projetos li h3 {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.projetos li .imgText {
+  display: flex;
+  align-items: flex-start;
+}
+.projetos p {
+  color: var(--comment);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.projetos a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.projetos a:hover {
+  color: var(--pink);
+}
