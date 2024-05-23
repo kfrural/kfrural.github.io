@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b505c598.css",
+    "main.js": "/static/js/main.0ac494ee.js",
+    "static/media/hackathonPifPaf.png": "/static/media/hackathonPifPaf.faeddf6d25e42af3a942.png",
+    "static/media/img2.png": "/static/media/img2.a5456347764236d4b915.png",
+    "static/media/telaAppBovino.jpg": "/static/media/telaAppBovino.497cd9b8b8a778339abf.jpg",
+    "static/media/avatar.png": "/static/media/avatar.d7b7569f316382ba0509.png",
+    "static/media/API_REST.png": "/static/media/API_REST.749762af3a03e6357dc8.png",
+    "static/media/cpp.png": "/static/media/cpp.65ccc4753c8cbdefb0b0.png",
+    "static/media/postgreSQL.png": "/static/media/postgreSQL.42b7697a4d6d95799930.png",
+    "static/media/react_native.png": "/static/media/react_native.c1816fabd8181e5cb23c.png",
+    "static/media/mongoDb.png": "/static/media/mongoDb.83a1ed628f1466e2fd7f.png",
+    "static/media/react.png": "/static/media/react.0c142273c4e656a5da3e.png",
+    "static/media/aws.png": "/static/media/aws.321528162ab9fcb1b737.png",
+    "static/media/expo.png": "/static/media/expo.1be986ac6e0d89f87ffd.png",
+    "static/media/php.png": "/static/media/php.cff568df30fb870eb35b.png",
+    "static/media/c.png": "/static/media/c.ca7b2ed0061cc201281b.png",
+    "static/media/java.png": "/static/media/java.7cf05e505543bc07a69c.png",
+    "static/media/node.png": "/static/media/node.2fda80c87a95b70b0e68.png",
+    "static/media/nosql.png": "/static/media/nosql.bce8b22839ba69f95233.png",
+    "static/media/sql.png": "/static/media/sql.7719dc203210648f9e4d.png",
+    "static/media/python.png": "/static/media/python.381f950970c92fafbd57.png",
+    "static/media/docker.png": "/static/media/docker.a16f77977cb3135a12b3.png",
+    "static/media/git.png": "/static/media/git.477f4f4d31ecd54e3c18.png",
+    "static/media/projAmeaca.png": "/static/media/projAmeaca.e696a8ce3003ffed9db7.png",
+    "static/media/velha.png": "/static/media/velha.0cb6f104c946ef40c482.png",
+    "static/media/js.png": "/static/media/js.3228bc09eb4ae6145d07.png",
+    "index.html": "/index.html",
+    "main.b505c598.css.map": "/static/css/main.b505c598.css.map",
+    "main.0ac494ee.js.map": "/static/js/main.0ac494ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b505c598.css",
+    "static/js/main.0ac494ee.js"
+  ]
+}
