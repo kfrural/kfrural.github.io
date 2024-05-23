@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b505c598.css",
+    "main.css": "/static/css/main.352b8f13.css",
     "main.js": "/static/js/main.0ac494ee.js",
     "static/media/hackathonPifPaf.png": "/static/media/hackathonPifPaf.faeddf6d25e42af3a942.png",
     "static/media/img2.png": "/static/media/img2.a5456347764236d4b915.png",
@@ -27,11 +27,11 @@
     "static/media/velha.png": "/static/media/velha.0cb6f104c946ef40c482.png",
     "static/media/js.png": "/static/media/js.3228bc09eb4ae6145d07.png",
     "index.html": "/index.html",
-    "main.b505c598.css.map": "/static/css/main.b505c598.css.map",
+    "main.352b8f13.css.map": "/static/css/main.352b8f13.css.map",
     "main.0ac494ee.js.map": "/static/js/main.0ac494ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.b505c598.css",
+    "static/css/main.352b8f13.css",
     "static/js/main.0ac494ee.js"
   ]
 }
