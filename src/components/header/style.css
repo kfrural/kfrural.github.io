@@ -15,6 +15,7 @@
 .header h1 {
   color: var(--pink);
   font-family: 'Fira Code', monospace;
+  font-size: 24px;
   transition: text-shadow 0.3s ease;
   margin-right: auto;
 }
@@ -23,26 +24,86 @@
   text-shadow: 0 0 0.8px var(--cyan), 0 0 1.8px var(--cyan), 0 0 2.8px var(--cyan), 0 0 3.8px var(--cyan), 0 0 6.8px var(--cyan), 0 0 7.8px var(--cyan), 0 0 0.8px var(--cyan), 0 0 1.5px var(--cyan);
 }
 
-.header ul {
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  margin-right: 40px;
+  width: 18px;
+  height: 18px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: auto;
+  height: 1px;
+  background-color: var(--foreground);
+  margin: 8px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.open .bar2 {opacity: 0;}
+
+.open .bar3 {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
+.menu {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
-.header li {
-  margin-right: 50px;
+.menu li {
+  margin-right: 30px;
 }
 
-.header a {
+.menu a {
   color: var(--foreground);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
-.header a:hover {
+.menu a:hover {
   color: var(--purple);
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--current-line);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .menu.show {
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 0;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .header h1 {
+    font-size: 12px;
+  }
 }

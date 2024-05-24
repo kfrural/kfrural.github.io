@@ -37,3 +37,26 @@
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .skills h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .skills ul {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+
+  .skills li {
+    padding: 8px 20px;
+    font-size: 0.8em;
+  }
+}

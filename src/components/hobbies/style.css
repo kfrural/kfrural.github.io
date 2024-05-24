@@ -38,3 +38,33 @@
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media only screen and (max-width: 600px) {
+  .backend-interests-hobbies {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .backend-interests-hobbies h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .backend-interests-hobbies h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+
+  .backend-interests-hobbies h4 {
+    font-size: 1em;
+  }
+
+  .backend-interests-hobbies p {
+    font-size: 0.9em;
+  }
+
+  .backend-interests-hobbies .interest-item {
+    padding: 15px;
+  }
+}

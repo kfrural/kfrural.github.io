@@ -1,12 +1,9 @@
 import React from 'react';
 import './style.css';
-import Experience from '../experiencia';
-import Formation from '../formation';
-import Hobbies from '../hobbies';
 
 const About = () => {
     return (
-        <section id='about'>
+        <section id='about' className='about'>
             <h2>Olá! 👋 Sou a Karla Ferreira 👩🏻‍💻🤠</h2>
             <p>Sou uma estudante apaixonada por tecnologia e programação.
                 Atualmente, estou cursando <strong>Ciência da Computação</strong>

@@ -96,3 +96,38 @@
 .buttons a:hover {
   background-color: var(--pink);
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}

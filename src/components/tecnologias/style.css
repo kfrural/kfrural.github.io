@@ -39,3 +39,31 @@ li {
   filter: invert(100%);
 }
 
+@media only screen and (max-width: 600px) {
+  .tecnologias {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tecnologias h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  ul {
+    justify-content: flex-start;
+  }
+
+  li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .imgLogo {
+    width: auto;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
+

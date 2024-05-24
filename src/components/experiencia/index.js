@@ -8,7 +8,7 @@ const Experience = () => {
       <ul>
         <li>
           <h3>EmComp - Empresa Júnior da Computação</h3>
-          <p className="position">Desenvolvedora Full-Stack (Voluntária)</p>
+          <p className="position">Desenvolvedora Full-Stack </p>
           <p>Tempo Integral</p>
           <p>Maio de 2023 - Presente</p>
           <p>Rio Pomba, Minas Gerais, Brasil</p>

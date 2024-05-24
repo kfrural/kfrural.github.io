@@ -74,3 +74,41 @@
     color: var(--pink);
   }
   
+  @media only screen and (max-width: 600px) {
+    .contact {
+      flex-direction: column;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .contact h2 {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .contact form {
+      margin-bottom: 20px;
+    }
+  
+    .contact input,
+    .contact textarea {
+      margin-bottom: 15px;
+      padding: 8px;
+      font-size: 0.8em;
+    }
+  
+    .contact button {
+      padding: 8px 16px;
+      font-size: 0.9em;
+    }
+  
+    .contact p {
+      font-size: 0.8em;
+      margin-bottom: 8px;
+    }
+  
+    .contact a {
+      font-size: 0.9em;
+    }
+  }

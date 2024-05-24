@@ -37,3 +37,27 @@
 .footer-info p {
   margin: 5px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .footer-content {
+    align-items: center;
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+
+  .footer-info p {
+    font-size: 0.7em;
+    margin: 2px 0;
+  }
+}
