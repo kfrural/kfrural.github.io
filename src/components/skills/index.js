@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
 
-const SkillsComponent = () => {
-
-    const softSkills = [
+const translations = {
+  'pt-BR': {
+    title: 'Soft Skills',
+    skills: [
       "Comunicação Efetiva",
       "Trabalho em Equipe",
       "Resolução de Problemas",
@@ -14,21 +15,40 @@ const SkillsComponent = () => {
       "Colaboração",
       "Empatia",
       "Criatividade"
-    ];
-  
-    return (
-      <div className="skills">
-        <div>
-          <h2>Soft Skills</h2>
-          <ul>
-            {softSkills.map((skill, index) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    );
+    ]
+  },
+  en: {
+    title: 'Soft Skills',
+    skills: [
+      "Effective Communication",
+      "Teamwork",
+      "Problem Solving",
+      "Adaptability",
+      "Critical Thinking",
+      "Time Management",
+      "Leadership",
+      "Collaboration",
+      "Empathy",
+      "Creativity"
+    ]
   }
+};
 
-  export default SkillsComponent;
-  
+const SkillsComponent = ({ language }) => {
+  const translation = translations[language];
+
+  return (
+    <div className="skills">
+      <div>
+        <h2>{translation.title}</h2>
+        <ul>
+          {translation.skills.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default SkillsComponent;

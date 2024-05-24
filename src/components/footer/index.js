@@ -2,7 +2,20 @@ import React from 'react';
 import './style.css';
 import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
-const Footer = () => {
+const translations = {
+  'pt-BR': {
+    rightsReserved: '© 2024 Kfrural. Todos os direitos reservados.',
+    developedBy: 'Desenvolvido por Karla Ferreira'
+  },
+  'en': {
+    rightsReserved: '© 2024 Kfrural. All rights reserved.',
+    developedBy: 'Developed by Karla Ferreira'
+  }
+};
+
+const Footer = ({ language }) => {
+  const translation = translations[language];
+
   return (
     <footer className='footer'>
       <div className='footer-content'>
@@ -21,8 +34,8 @@ const Footer = () => {
           </a>
         </div>
         <div className='footer-info'>
-          <p>&copy; 2024 Kfrural. Todos os direitos reservados.</p>
-          <p>Desenvolvido por Karla Ferreira</p>
+          <p>{translation.rightsReserved}</p>
+          <p>{translation.developedBy}</p>
         </div>
       </div>
     </footer>

@@ -48,6 +48,7 @@
 .projetos li .imgText {
   display: flex;
   align-items: flex-start;
+  text-align: justify;
 }
 .projetos p {
   color: var(--comment);

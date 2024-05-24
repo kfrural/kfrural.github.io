@@ -20,11 +20,11 @@
 .backend-interests-hobbies p {
   color: var(--comment);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .backend-interests-hobbies ul {
   list-style: none;
-  padding: 0;
 }
 
 .backend-interests-hobbies li {
@@ -37,6 +37,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 650px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,5 +67,6 @@
 
   .backend-interests-hobbies .interest-item {
     padding: 15px;
+    width: 200px;
   }
 }

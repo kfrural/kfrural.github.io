@@ -1,12 +1,31 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const Header = () => {
+const translations = {
+  'pt-BR': {
+    home: 'Início',
+    about: 'Sobre',
+    events: 'Eventos',
+    projects: 'Projetos',
+    contact: 'Contato'
+  },
+  en: {
+    home: 'Home',
+    about: 'About',
+    events: 'Events',
+    projects: 'Projects',
+    contact: 'Contact'
+  }
+};
+
+const Header = ({ language }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const translation = translations[language];
 
   return (
     <nav className='header'>
@@ -19,11 +38,11 @@ const Header = () => {
         <div className="bar3"></div>
       </div>
       <ul className={`menu ${isMenuOpen ? 'show' : ''}`}>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#eventos">Eventos</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#hero">{translation.home}</a></li>
+        <li><a href="#about">{translation.about}</a></li>
+        <li><a href="#eventos">{translation.events}</a></li>
+        <li><a href="#projetos">{translation.projects}</a></li>
+        <li><a href="#contato">{translation.contact}</a></li>
       </ul>
     </nav>
   );

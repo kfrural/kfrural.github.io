@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Footer from './components/footer';
 import Header from './components/header';
@@ -13,25 +13,33 @@ import Hero from './components/hero';
 import Tecnologias from './components/tecnologias';
 import Skills from './components/skills';
 import ContactComponent from './components/contact';
+import Functions from './components/functions';
 
 const App = () => {
+  const [language, setLanguage] = useState('pt-BR');
+
+  const handleLanguageChange = () => {
+    setLanguage(language === 'pt-BR' ? 'en' : 'pt-BR');
+  };
+
   return (
     <div>
-      <Header />
+      <Header language={language} setLanguage={setLanguage}/>
       <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Formation />
-        <Tecnologias />
-        <Skills />
-        <Hobbies />
-        <Project />
-        <Courses />
-        <Event />
-        <ContactComponent />
+        <Functions language={language} setLanguage={setLanguage} />
+        <Hero language={language} setLanguage={setLanguage} />
+        <About language={language} setLanguage={setLanguage}/>
+        <Experience language={language} setLanguage={setLanguage}/>
+        <Formation language={language} setLanguage={setLanguage}/>
+        <Tecnologias language={language} setLanguage={setLanguage}/>
+        <Skills language={language} setLanguage={setLanguage}/>
+        <Hobbies language={language} setLanguage={setLanguage}/>
+        <Project language={language} setLanguage={setLanguage}/>
+        <Courses language={language} setLanguage={setLanguage}/>
+        <Event language={language} setLanguage={setLanguage}/>
+        <ContactComponent language={language} setLanguage={setLanguage}/>
       </main>
-      <Footer />
+      <Footer language={language} setLanguage={setLanguage}/>
     </div>
   );
 }

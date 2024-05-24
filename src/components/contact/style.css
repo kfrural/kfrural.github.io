@@ -1,114 +1,115 @@
-/* Cores do tema Dracula */
-:root {
-    --background: #282a36;
-    --current-line: #44475a;
-    --foreground: #f8f8f2;
-    --comment: #6272a4;
-    --cyan: #8be9fd;
-    --green: #50fa7b;
-    --orange: #ffb86c;
-    --pink: #ff79c6;
-    --purple: #bd93f9;
-    --red: #ff5555;
-    --yellow: #f1fa8c;
-  }
-  
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--current-line);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.contact h2 {
+  color: var(--foreground);
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contact .form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 280px;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--foreground);
+  border-radius: 5px;
+  background-color: var(--background);
+  color: var(--foreground);
+  width: 100%;
+}
+
+.contact button {
+  background-color: var(--purple);
+  color: var(--foreground);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+.contact .submit-button {
+  margin-top: 5px;
+}
+
+.contact button:hover {
+  background-color: var(--pink);
+  font-family: 'Fira Code', monospace;
+}
+
+.contact p {
+  color: var(--comment);
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+}
+
+.contact a:hover {
+  color: var(--pink);
+}
+
+@media only screen and (max-width: 600px) {
   .contact {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--current-line);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-  }
-  
-  .contact h2 {
-    color: var(--foreground);
-    font-family: 'Fira Code', monospace;
-    margin-bottom: 10px;
-  }
-  
-  .contact form {
-    display: flex;
     flex-direction: column;
+    padding: 15px;
+    margin-bottom: 20px;
   }
-  
+
+  .contact h2 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact .form-container {
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+
   .contact input,
   .contact textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid var(--foreground);
-    border-radius: 5px;
-    background-color: var(--background);
-    color: var(--foreground);
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 0.8em;
   }
-  
+
+  .contact .submit-button {
+    margin-top: 5px;
+  }
+
   .contact button {
-    background-color: var(--purple);
-    color: var(--foreground);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-family: 'Fira Code', monospace;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    align-self: center;
   }
-  
-  .contact button:hover {
-    background-color: var(--pink);
-    font-family: 'Fira Code', monospace;
-  }
-  
+
   .contact p {
-    color: var(--comment);
-    margin-bottom: 10px;
+    font-size: 0.8em;
+    margin-bottom: 8px;
   }
-  
+
   .contact a {
-    color: var(--cyan);
-    text-decoration: none;
-    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
   }
-  
-  .contact a:hover {
-    color: var(--pink);
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .contact {
-      flex-direction: column;
-      padding: 15px;
-      margin-bottom: 20px;
-    }
-  
-    .contact h2 {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-      text-align: center;
-    }
-  
-    .contact form {
-      margin-bottom: 20px;
-    }
-  
-    .contact input,
-    .contact textarea {
-      margin-bottom: 15px;
-      padding: 8px;
-      font-size: 0.8em;
-    }
-  
-    .contact button {
-      padding: 8px 16px;
-      font-size: 0.9em;
-    }
-  
-    .contact p {
-      font-size: 0.8em;
-      margin-bottom: 8px;
-    }
-  
-    .contact a {
-      font-size: 0.9em;
-    }
-  }
+}

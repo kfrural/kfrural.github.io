@@ -20,8 +20,7 @@ import php from '../../assets/icons/php.png';
 import mongoDb from '../../assets/icons/mongoDb.png';
 import postgreSQL from '../../assets/icons/postgreSQL.png';
 
-const Tecnologias = () => {
-  
+const Tecnologias = ({ language }) => {
   const toolsTechnologies = [
     <img src={node} alt="Node.js" className="imgLogo" />,
     <img src={python} alt='Python' className="imgLogo" />,
@@ -44,19 +43,27 @@ const Tecnologias = () => {
     <img src={postgreSQL} alt='PostgreSQL' className='imgLogo' />,
   ];
 
-    return (
-      <div className="tecnologias">
-        <div>
-          <h2>Ferramentas e Tecnologias</h2>
-          <ul>
-            {toolsTechnologies.map((tool, index) => (
-              <li key={index}>{tool}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    );
-  }
+  const translation = {
+    'pt-BR': {
+      title: 'Ferramentas e Tecnologias que Domino',
+    },
+    'en': {
+      title: 'Tools and Technologies I Master',
+    }
+  };
 
-  export default Tecnologias;
-  
+  return (
+    <div className="tecnologias">
+      <div>
+        <h2>{translation[language].title}</h2>
+        <ul>
+          {toolsTechnologies.map((tool, index) => (
+            <li key={index}>{tool}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Tecnologias;

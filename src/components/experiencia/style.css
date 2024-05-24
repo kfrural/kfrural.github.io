@@ -17,6 +17,10 @@
 .experience-section p {
   color: var(--comment);
   line-height: 1.6;
+  text-align: justify;
+}
+.experience-section p strong {
+  color: var(--green);
 }
 
 .experience-section ul {
