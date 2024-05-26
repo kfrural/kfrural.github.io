@@ -18,6 +18,7 @@ import Functions from './components/functions';
 const App = () => {
   const [language, setLanguage] = useState('pt-BR');
 
+  // eslint-disable-next-line
   const handleLanguageChange = () => {
     setLanguage(language === 'pt-BR' ? 'en' : 'pt-BR');
   };
