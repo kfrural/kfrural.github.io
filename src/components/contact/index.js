@@ -84,7 +84,7 @@ const ContactComponent = ({ language }) => {
         <p>E-mail: <a href="mailto:kferreira_@outlook.com?subject=Currículo Web&body=">kferreira_@outlook.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/karla-ferreira-rural/">karla-ferreira-rural</a></p>
         <p>GitHub: <a href="https://github.com/kfrural">kfrural</a></p>
-        <p>Instagrem: <a href="https://www.instagram.com/kf.rural/">@kf.rural</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/kf.rural/">@kf.rural</a></p>
       </div>
     </div>
   );

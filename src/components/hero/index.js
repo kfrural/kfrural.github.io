@@ -71,9 +71,6 @@ const Hero = ({ language }) => {
             <a href="https://www.instagram.com/kf.rural/" className="btn">
               {translation.instagram}
             </a>
-            <a href="link_para_download_pdf" className="btn" onClick={handleDownloadCurriculo}>
-              {translation.downloadCurriculo}
-            </a>
           </div>
         </div>
       </div>

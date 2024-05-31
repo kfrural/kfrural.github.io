@@ -18,7 +18,8 @@ const translations = {
       "Desenvolvimento Java com Cloud AWS",
       "Potência Tech iFood - Desenvolvimento de Jogos",
       "Banco PAN Java Developer ",
-      "Bootcamp Microsoft Dynamics 365 "
+      "Bootcamp Microsoft Dynamics 365 ",
+      "Santander 2024 - Backend com Java"
     ]
   },
   'en': {
@@ -37,7 +38,8 @@ const translations = {
       "Java Development with AWS Cloud",
       "Potência Tech iFood - Game Development",
       "Banco PAN Java Developer",
-      "Microsoft Dynamics 365 Bootcamp"
+      "Microsoft Dynamics 365 Bootcamp",
+      "Santander 2024 - Backend with Java"
     ]
   }
 };
