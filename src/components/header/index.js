@@ -25,6 +25,10 @@ const Header = ({ language }) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false);
+  };
+
   const translation = translations[language];
 
   return (
@@ -38,11 +42,11 @@ const Header = ({ language }) => {
         <div className="bar3"></div>
       </div>
       <ul className={`menu ${isMenuOpen ? 'show' : ''}`}>
-        <li><a href="#hero">{translation.home}</a></li>
-        <li><a href="#about">{translation.about}</a></li>
-        <li><a href="#eventos">{translation.events}</a></li>
-        <li><a href="#projetos">{translation.projects}</a></li>
-        <li><a href="#contato">{translation.contact}</a></li>
+        <li><a href="#hero" onClick={handleMenuItemClick}>{translation.home}</a></li>
+        <li><a href="#about" onClick={handleMenuItemClick}>{translation.about}</a></li>
+        <li><a href="#eventos" onClick={handleMenuItemClick}>{translation.events}</a></li>
+        <li><a href="#projetos" onClick={handleMenuItemClick}>{translation.projects}</a></li>
+        <li><a href="#contato" onClick={handleMenuItemClick}>{translation.contact}</a></li>
       </ul>
     </nav>
   );

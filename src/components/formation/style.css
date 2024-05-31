@@ -14,11 +14,13 @@
 .formation-section h4 {
   color: var(--cyan);
   margin-bottom: 5px;
+  font-family: 'Fira Code', monospace;
 }
 
 .formation-section p {
   color: var(--comment);
   line-height: 1.6;
+  font-family: 'Fira Code', monospace;
 }
 
 .formation-section ul {

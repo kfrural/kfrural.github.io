@@ -15,12 +15,14 @@
 .backend-interests-hobbies h4 {
   color: var(--cyan);
   margin-bottom: 5px;
+  font-family: 'Fira Code', monospace;
 }
 
 .backend-interests-hobbies p {
   color: var(--comment);
   line-height: 1.6;
   text-align: justify;
+  font-family: 'Fira Code', monospace;
 }
 
 .backend-interests-hobbies ul {

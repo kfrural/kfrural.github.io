@@ -32,6 +32,7 @@
   background-color: var(--background);
   color: var(--foreground);
   width: 100%;
+  font-family: 'Fira Code', monospace;
 }
 
 .contact button {
@@ -57,6 +58,7 @@
 .contact p {
   color: var(--comment);
   margin-bottom: 10px;
+  font-family: 'Fira Code', monospace;
 }
 
 .contact a {

@@ -12,15 +12,18 @@
 .experience-section h3 {
   color: var(--pink);
   margin-bottom: 5px;
+  font-family: 'Fira Code', monospace;
 }
 
 .experience-section p {
   color: var(--comment);
   line-height: 1.6;
   text-align: justify;
+  font-family: 'Fira Code', monospace;
 }
 .experience-section p strong {
   color: var(--green);
+  font-family: 'Fira Code', monospace;
 }
 
 .experience-section ul {

@@ -21,6 +21,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
+  font-family: 'Fira Code', monospace;
 }
 
 .cources li {
