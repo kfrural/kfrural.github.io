@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './style.css';
 import profileImage from '../../assets/img2.png';
 import avatarImage from '../../assets/avatar.png';
-import curriculo from '../../assets/Curriculo.pdf';
 
 const translations = {
   'pt-BR': {
@@ -34,10 +33,6 @@ const Hero = ({ language }) => {
 
   const handleMouseLeave = () => {
     setIsFlipped(false);
-  };
-
-  const handleDownloadCurriculo = () => {
-    window.open(curriculo);
   };
 
   const translation = translations[language];
