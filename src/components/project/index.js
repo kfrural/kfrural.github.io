@@ -4,6 +4,7 @@ import appBovino from '../../assets/telaAppBovino.jpg';
 import projAmeaca from '../../assets/projAmeaca.png';
 import chess from '../../assets/chess.png';
 import velha from '../../assets/velha.png';
+import analise_leite from '../../assets/Analise_leite.png';
 
 const translations = {
   'pt-BR': {
@@ -18,6 +19,11 @@ const translations = {
         title: 'Sistema de Monitoramento de Ameaças Cibernéticas',
         description: 'Desenvolvi, como parte do projeto Backdrop Build, um Sistema de Monitoramento de Ameaças Cibernéticas, uma aplicação intuitiva e robusta para detectar, registrar e analisar ameaças no ambiente digital. Com recursos de registro detalhado, filtragem avançada e visualização gráfica, a plataforma oferece uma visão abrangente do panorama de segurança cibernética. Projetado para facilitar a gestão proativa de ameaças, o sistema proporciona maior segurança digital para organizações e profissionais de segurança.',
         link: 'https://github.com/kfrural/CyberThreatsMonitoringSystem'
+      },
+      {
+        title: 'Análise da Produção de Leite no Brasil',
+        description: 'Este projeto é um sistema de análise de dados para a produção de leite no Brasil, utilizando dados históricos para criar uma interface gráfica interativa que permite aos usuários visualizar e explorar diferentes aspectos da produção leiteira. Com dados sobre a produção total, por região e por estado, o sistema fornece uma visão abrangente da evolução da produção leiteira no país, permitindo análises detalhadas e previsões futuras.',
+        link: 'https://github.com/kfrural/analise_prod_Leite_Br'
       },
       {
         title: 'Jogo de Xadrez',
@@ -45,6 +51,11 @@ const translations = {
         link: 'https://github.com/kfrural/CyberThreatsMonitoringSystem'
       },
       {
+        title: 'Analysis of Milk Production in Brazil',
+        description: 'This project is a data analysis system for milk production in Brazil, utilizing historical data to create an interactive graphical interface that allows users to visualize and explore different aspects of milk production. With data on total production, by region and by state, the system provides a comprehensive view of the evolution of milk production in the country, enabling detailed analyses and future predictions.',
+        link: 'https://github.com/kfrural/analise_prod_Leite_Br'
+      },
+      {
         title: 'Chess Game',
         description: 'This project is a simple implementation of a console-based chess game, where two players can compete in exciting matches. With an intuitive interface, players can select and move their pieces across the board, following the traditional rules of chess. The system validates the piece movements, ensuring an authentic and challenging gaming experience. Ideal for chess enthusiasts seeking fun and strategic practice.',
         link: 'https://github.com/kfrural/xadrezinho'
@@ -70,7 +81,7 @@ const Project = ({ language }) => {
           <li key={index}>
             <h3>{project.title}</h3>
             <div className="imgText">
-              <img src={index === 0 ? appBovino : index === 1 ? projAmeaca : index === 2 ? chess : velha} alt='Imagem do projeto' className='imgProjet' />
+              <img src={index === 0 ? appBovino : index === 1 ? projAmeaca : index === 2 ? analise_leite : index === 3 ? chess : velha} alt='Imagem do projeto' className='imgProjet' />
               <p>{project.description}</p>
             </div>
             <a href={project.link}>{language === 'pt-BR' ? 'Clique aqui para ver o projeto' : 'Click here to see the project'}</a>
