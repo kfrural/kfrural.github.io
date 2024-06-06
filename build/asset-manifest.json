@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d851967b.css",
-    "main.js": "/static/js/main.75f33c97.js",
+    "main.js": "/static/js/main.6ce77788.js",
     "static/js/952.95ab7e11.chunk.js": "/static/js/952.95ab7e11.chunk.js",
     "static/media/hackathonPifPaf.png": "/static/media/hackathonPifPaf.faeddf6d25e42af3a942.png",
     "static/media/img2.png": "/static/media/img2.a5456347764236d4b915.png",
     "static/media/telaAppBovino.jpg": "/static/media/telaAppBovino.497cd9b8b8a778339abf.jpg",
     "static/media/avatar.png": "/static/media/avatar.d7b7569f316382ba0509.png",
     "static/media/Analise_leite.png": "/static/media/Analise_leite.1b90f82b59f434cc49f7.png",
+    "static/media/chess.png": "/static/media/chess.a573783efc8ef8a2e029.png",
     "static/media/API_REST.png": "/static/media/API_REST.749762af3a03e6357dc8.png",
     "static/media/cpp.png": "/static/media/cpp.65ccc4753c8cbdefb0b0.png",
     "static/media/postgreSQL.png": "/static/media/postgreSQL.42b7697a4d6d95799930.png",
@@ -30,11 +31,11 @@
     "static/media/js.png": "/static/media/js.3228bc09eb4ae6145d07.png",
     "index.html": "/index.html",
     "main.d851967b.css.map": "/static/css/main.d851967b.css.map",
-    "main.75f33c97.js.map": "/static/js/main.75f33c97.js.map",
+    "main.6ce77788.js.map": "/static/js/main.6ce77788.js.map",
     "952.95ab7e11.chunk.js.map": "/static/js/952.95ab7e11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d851967b.css",
-    "static/js/main.75f33c97.js"
+    "static/js/main.6ce77788.js"
   ]
 }
