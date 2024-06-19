@@ -19,7 +19,10 @@ const translations = {
       "Potência Tech iFood - Desenvolvimento de Jogos",
       "Banco PAN Java Developer ",
       "Bootcamp Microsoft Dynamics 365 ",
-      "Santander 2024 - Backend com Java"
+      "Santander 2024 - Backend com Java",
+      "Data Analytics com Power BI",
+      "Desenvolvimento Java com IA",
+      "Desenvolvedor de back-end Python AI"
     ]
   },
   'en': {
@@ -39,7 +42,10 @@ const translations = {
       "Potência Tech iFood - Game Development",
       "Banco PAN Java Developer",
       "Microsoft Dynamics 365 Bootcamp",
-      "Santander 2024 - Backend with Java"
+      "Santander 2024 - Backend with Java",
+      "Data Analytics with Power BI",
+      "Java development with AI",
+      "Python AI Backend Developer"
     ]
   }
 };
