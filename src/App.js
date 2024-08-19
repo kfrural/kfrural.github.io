@@ -33,8 +33,8 @@ const App = () => {
         <Experience language={language} setLanguage={setLanguage}/>
         <Formation language={language} setLanguage={setLanguage}/>
         <Tecnologias language={language} setLanguage={setLanguage}/>
-        <Skills language={language} setLanguage={setLanguage}/>
-        <Hobbies language={language} setLanguage={setLanguage}/>
+        {/*<Skills language={language} setLanguage={setLanguage}/>
+        <Hobbies language={language} setLanguage={setLanguage}/>*/}
         <Project language={language} setLanguage={setLanguage}/>
         <Courses language={language} setLanguage={setLanguage}/>
         <Event language={language} setLanguage={setLanguage}/>
