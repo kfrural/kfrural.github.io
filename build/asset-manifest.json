@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dfeab60b.css",
-    "main.js": "/static/js/main.13f7cd21.js",
+    "main.js": "/static/js/main.08904acd.js",
     "static/js/952.95ab7e11.chunk.js": "/static/js/952.95ab7e11.chunk.js",
     "static/media/hackathonPifPaf.png": "/static/media/hackathonPifPaf.faeddf6d25e42af3a942.png",
     "static/media/img2.png": "/static/media/img2.a5456347764236d4b915.png",
@@ -12,6 +12,7 @@
     "static/media/API_REST.png": "/static/media/API_REST.749762af3a03e6357dc8.png",
     "static/media/cpp.png": "/static/media/cpp.65ccc4753c8cbdefb0b0.png",
     "static/media/postgreSQL.png": "/static/media/postgreSQL.42b7697a4d6d95799930.png",
+    "static/media/churn-prediction.png": "/static/media/churn-prediction.e97216ee17aaa71fe05f.png",
     "static/media/react_native.png": "/static/media/react_native.c1816fabd8181e5cb23c.png",
     "static/media/mongoDb.png": "/static/media/mongoDb.83a1ed628f1466e2fd7f.png",
     "static/media/react.png": "/static/media/react.0c142273c4e656a5da3e.png",
@@ -31,11 +32,11 @@
     "static/media/js.png": "/static/media/js.3228bc09eb4ae6145d07.png",
     "index.html": "/index.html",
     "main.dfeab60b.css.map": "/static/css/main.dfeab60b.css.map",
-    "main.13f7cd21.js.map": "/static/js/main.13f7cd21.js.map",
+    "main.08904acd.js.map": "/static/js/main.08904acd.js.map",
     "952.95ab7e11.chunk.js.map": "/static/js/952.95ab7e11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfeab60b.css",
-    "static/js/main.13f7cd21.js"
+    "static/js/main.08904acd.js"
   ]
 }
