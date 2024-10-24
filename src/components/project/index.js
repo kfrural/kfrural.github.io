@@ -5,6 +5,7 @@ import projAmeaca from '../../assets/projAmeaca.png';
 import chess from '../../assets/chess.png';
 import velha from '../../assets/velha.png';
 import analise_leite from '../../assets/Analise_leite.png';
+import churn from '../../assets/churn-prediction.png';
 
 const translations = {
   'pt-BR': {
@@ -14,6 +15,11 @@ const translations = {
         title: 'Aplicativo Mobile para Gerenciamento de Bovinos em Propriedades Rurais',
         description: 'O projeto "Aplicativo Mobile para Gerenciamento de Bovinos em Propriedades Rurais: Uma Ferramenta Eficaz para Melhorar a Produção" é uma solução inovadora destinada a auxiliar pequenos e médios produtores rurais na gestão eficiente de suas propriedades. O sistema oferece funcionalidades intuitivas e práticas, como cadastramento de lotes, calendário de eventos, conversão de peso, calculadora de rações e controle financeiro. Essas ferramentas visam otimizar a produção pecuária, facilitando o acompanhamento de vacinas, reprodução, alimentação e transações financeiras. Com um design simples e amigável, o aplicativo promete simplificar o dia a dia dos produtores, melhorando a tomada de decisões e aumentando a rentabilidade das propriedades rurais.',
         link: 'https://github.com/kfrural/Projeto_gerenciaBov'
+      },
+      {
+        title: 'Previsão do Churn do Cliente',
+        description: 'Este projeto visa prever a rotatividade de clientes para uma empresa de telecomunicações usando técnicas de aprendizado de máquina. Ao alavancar duas metodologias, CRISP-DM e KDD, garantimos uma abordagem estruturada e perspicaz para o processo de mineração de dados. O projeto inclui pré-processamento de dados, engenharia de recursos, modelagem e fases de avaliação, e é suportado por um painel implantável para apresentar os resultados.',
+        link: 'https://github.com/kfrural/customer-churn-prediction'
       },
       {
         title: 'Sistema de Monitoramento de Ameaças Cibernéticas',
@@ -34,7 +40,7 @@ const translations = {
         title: 'Jogo da Velha',
         description: 'Este é um projeto de implementação do clássico jogo da velha para console. Os jogadores podem competir entre si para marcar três de suas peças em linha horizontal, vertical ou diagonal. Com uma interface simples, os jogadores alternam entre escolher uma posição no tabuleiro para colocar suas peças "X" ou "O". O sistema valida as jogadas, verifica se há um vencedor ou se o jogo terminou em empate, proporcionando uma experiência de jogo nostálgica e divertida.',
         link: 'https://github.com/kfrural/TicTacToe'
-      }
+      },
     ]
   },
   'en': {
@@ -44,6 +50,11 @@ const translations = {
         title: 'Mobile App for Cattle Management in Rural Properties',
         description: 'The project "Mobile App for Cattle Management in Rural Properties: An Effective Tool to Improve Production" is an innovative solution designed to assist small and medium-sized rural producers in efficiently managing their properties. The system offers intuitive and practical features, such as lot registration, event calendar, weight conversion, ration calculator, and financial control. These tools aim to optimize cattle production, facilitating the monitoring of vaccines, reproduction, feeding, and financial transactions. With a simple and user-friendly design, the app promises to simplify the daily lives of producers, improving decision-making and increasing the profitability of rural properties.',
         link: 'https://github.com/kfrural/Projeto_gerenciaBov'
+      },
+      {
+        title: 'Customer Churn Prediction',
+        description: 'This project aims to predict customer churn for a telecom company using machine learning techniques. By leveraging two methodologies, CRISP-DM and KDD, we ensure a structured and insightful approach to the data mining process. The project includes data preprocessing, feature engineering, modeling, and evaluation phases, and is supported by a deployable dashboard for presenting the results.',
+        link: 'https://github.com/kfrural/customer-churn-prediction'
       },
       {
         title: 'Cyber Threat Monitoring System',
@@ -64,7 +75,7 @@ const translations = {
         title: 'Tic Tac Toe Game',
         description: 'This is a project implementing the classic Tic Tac Toe game for the console. Players can compete against each other to mark three of their pieces in a horizontal, vertical, or diagonal line. With a simple interface, players take turns choosing a position on the board to place their "X" or "O" pieces. The system validates the moves, checks for a winner or if the game ends in a tie, providing a nostalgic and entertaining gaming experience.',
         link: 'https://github.com/kfrural/TicTacToe'
-      }
+      },
     ]
   }
 };
@@ -81,7 +92,7 @@ const Project = ({ language }) => {
           <li key={index}>
             <h3>{project.title}</h3>
             <div className="imgText">
-              <img src={index === 0 ? appBovino : index === 1 ? projAmeaca : index === 2 ? analise_leite : index === 3 ? chess : velha} alt='Imagem do projeto' className='imgProjet' />
+              <img src={index === 0 ? appBovino : index === 1 ? churn : index === 2 ? projAmeaca : index === 3 ? analise_leite : index === 4 ? chess : velha } alt='Imagem do projeto' className='imgProjet' />
               <p>{project.description}</p>
             </div>
             <a href={project.link}>{language === 'pt-BR' ? 'Clique aqui para ver o projeto' : 'Click here to see the project'}</a>
