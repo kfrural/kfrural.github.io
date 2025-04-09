@@ -3,9 +3,10 @@ import './style.css';
 import appBovino from '../../assets/telaAppBovino.jpg';
 import projAmeaca from '../../assets/projAmeaca.png';
 import chess from '../../assets/chess.png';
-import velha from '../../assets/velha.png';
+//import velha from '../../assets/velha.png';
 import analise_leite from '../../assets/Analise_leite.png';
 import churn from '../../assets/churn-prediction.png';
+import gerenciaAcademic from '../../assets/gerenciamento_estudo.png';
 
 const translations = {
   'pt-BR': {
@@ -32,15 +33,20 @@ const translations = {
         link: 'https://github.com/kfrural/analise_prod_Leite_Br'
       },
       {
+        title: 'Monitoramento Acadêmico Inteligente',
+        description: 'EO MAI é uma ferramenta inovadora desenvolvida como projeto de extensão universitária que visa transformar a forma como os estudantes gerenciam seu tempo de estudo e acompanham seu desempenho acadêmico. Utilizando técnicas avançadas de Big Data e análise de dados em Python, o sistema oferece insights personalizados para otimização do estudo.',
+        link: 'https://github.com/kfrural/smart_academic_monitoring'
+      },
+      {
         title: 'Jogo de Xadrez',
         description: 'Este projeto é uma implementação simples de um jogo de xadrez em console, onde dois jogadores podem competir em partidas emocionantes. Com uma interface intuitiva, os jogadores podem selecionar e mover suas peças pelo tabuleiro, seguindo as regras tradicionais do xadrez. O sistema valida os movimentos das peças, garantindo uma experiência de jogo autêntica e desafiadora. Ideal para entusiastas do xadrez em busca de diversão e prática estratégica.',
         link: 'https://github.com/kfrural/xadrezinho'
       },
-      {
-        title: 'Jogo da Velha',
-        description: 'Este é um projeto de implementação do clássico jogo da velha para console. Os jogadores podem competir entre si para marcar três de suas peças em linha horizontal, vertical ou diagonal. Com uma interface simples, os jogadores alternam entre escolher uma posição no tabuleiro para colocar suas peças "X" ou "O". O sistema valida as jogadas, verifica se há um vencedor ou se o jogo terminou em empate, proporcionando uma experiência de jogo nostálgica e divertida.',
-        link: 'https://github.com/kfrural/TicTacToe'
-      },
+      // {
+      //   title: 'Jogo da Velha',
+      //   description: 'Este é um projeto de implementação do clássico jogo da velha para console. Os jogadores podem competir entre si para marcar três de suas peças em linha horizontal, vertical ou diagonal. Com uma interface simples, os jogadores alternam entre escolher uma posição no tabuleiro para colocar suas peças "X" ou "O". O sistema valida as jogadas, verifica se há um vencedor ou se o jogo terminou em empate, proporcionando uma experiência de jogo nostálgica e divertida.',
+      //   link: 'https://github.com/kfrural/TicTacToe'
+      // },
     ]
   },
   'en': {
@@ -67,15 +73,20 @@ const translations = {
         link: 'https://github.com/kfrural/analise_prod_Leite_Br'
       },
       {
+        title: "Smart Academic Monitoring",
+        description: "MAI is an innovative tool developed as a university extension project that aims to transform the way students manage their study time and track their academic performance. Using advanced Big Data techniques and Python data analysis, the system provides personalized insights for study optimization.",
+        link: "https://github.com/kfrural/smart_academic_monitoring"
+      },
+      {
         title: 'Chess Game',
         description: 'This project is a simple implementation of a console-based chess game, where two players can compete in exciting matches. With an intuitive interface, players can select and move their pieces across the board, following the traditional rules of chess. The system validates the piece movements, ensuring an authentic and challenging gaming experience. Ideal for chess enthusiasts seeking fun and strategic practice.',
         link: 'https://github.com/kfrural/xadrezinho'
       },
-      {
-        title: 'Tic Tac Toe Game',
-        description: 'This is a project implementing the classic Tic Tac Toe game for the console. Players can compete against each other to mark three of their pieces in a horizontal, vertical, or diagonal line. With a simple interface, players take turns choosing a position on the board to place their "X" or "O" pieces. The system validates the moves, checks for a winner or if the game ends in a tie, providing a nostalgic and entertaining gaming experience.',
-        link: 'https://github.com/kfrural/TicTacToe'
-      },
+      // {
+      //   title: 'Tic Tac Toe Game',
+      //   description: 'This is a project implementing the classic Tic Tac Toe game for the console. Players can compete against each other to mark three of their pieces in a horizontal, vertical, or diagonal line. With a simple interface, players take turns choosing a position on the board to place their "X" or "O" pieces. The system validates the moves, checks for a winner or if the game ends in a tie, providing a nostalgic and entertaining gaming experience.',
+      //   link: 'https://github.com/kfrural/TicTacToe'
+      // },
     ]
   }
 };
@@ -92,7 +103,7 @@ const Project = ({ language }) => {
           <li key={index}>
             <h3>{project.title}</h3>
             <div className="imgText">
-              <img src={index === 0 ? appBovino : index === 1 ? churn : index === 2 ? projAmeaca : index === 3 ? analise_leite : index === 4 ? chess : velha } alt='Imagem do projeto' className='imgProjet' />
+              <img src={index === 0 ? appBovino : index === 1 ? churn : index === 2 ? projAmeaca : index === 3 ? analise_leite : index === 4 ? gerenciaAcademic :  chess } alt='Imagem do projeto' className='imgProjet' />
               <p>{project.description}</p>
             </div>
             <a href={project.link}>{language === 'pt-BR' ? 'Clique aqui para ver o projeto' : 'Click here to see the project'}</a>

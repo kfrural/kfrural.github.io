@@ -4,21 +4,45 @@ import './style.css';
 const translations = {
   'pt-BR': {
     title: 'Experiência',
-    company: 'EmComp - Empresa Júnior da Computação',
-    position: 'Desenvolvedora Full-Stack',
-    type: 'Tempo Integral',
-    date: 'Maio de 2023 - Presente',
-    location: 'Rio Pomba, Minas Gerais, Brasil',
-    description: 'Trabalho voluntário como desenvolvedora <strong>Full-Stack</strong> na <strong>EmComp</strong>, participando de projetos de desenvolvimento de software e soluções tecnológicas para clientes e parceiros da empresa júnior.'
+    experiences: [
+      {
+        company: 'Esteio Gestão Agropecuária',
+        position: 'Estagiária em Desenvolvimento Mobile',
+        type: 'Estágio',
+        date: 'Janeiro 2025 - Presente',
+        location: 'Viçosa, Minas Gerais, Brasil',
+        description: 'Desenvolvimento de <strong>aplicativos móveis</strong> para agropecuária, focando em soluções práticas para produtores rurais. Implementação de funcionalidades para gestão agropecuária, incluindo <strong>análise</strong>, <strong>desenvolvimento</strong>, <strong>homologação</strong> e <strong>testes</strong>.'
+      },
+      {
+        company: 'EmComp - Empresa Júnior da Computação',
+        position: 'Assessora de Projetos',
+        type: 'Tempo Integral',
+        date: 'Maio de 2023 - Presente',
+        location: 'Rio Pomba, Minas Gerais, Brasil',
+        description: 'Coordenação de projetos na EmComp, <strong>liderando equipes de desenvolvimento</strong> e <strong>gerenciando soluções tecnológicas</strong> para clientes e parceiros da empresa júnior.'
+      }
+    ]
   },
   en: {
     title: 'Experience',
-    company: 'EmComp - Computer Science Junior Company',
-    position: 'Full-Stack Developer',
-    type: 'Full-Time',
-    date: 'May 2023 - Present',
-    location: 'Rio Pomba, Minas Gerais, Brazil',
-    description: 'Volunteer work as a <strong>Full-Stack</strong> developer at <strong>EmComp</strong>, participating in software development projects and technological solutions for the junior company\'s clients and partners.'
+    experiences: [
+      {
+        company: 'Esteio Gestão Agropecuária',
+        position: 'Mobile Development Intern',
+        type: 'Internship',
+        date: 'January 2025 - Present',
+        location: 'Viçosa, Minas Gerais, Brazil',
+        description: 'Development of <strong>mobile apps</strong> for agribusiness, focusing on practical solutions for rural producers. Implementation of agribusiness management features, including <strong>analysis</strong>, <strong>development</strong>, <strong>validation</strong> and <strong>tests</strong>.'
+      },
+      {
+        company: 'EmComp - Computer Science Junior Company',
+        position: 'Project Advisor',
+        type: 'Full-Time',
+        date: 'May 2023 - Present',
+        location: 'Rio Pomba, Minas Gerais, Brazil',
+        description: 'Project coordination at EmComp, <strong>leading development teams</strong> and <strong>managing technological solutions</strong> for clients and partners of the junior company.'
+      }
+    ]
   }
 };
 
@@ -26,17 +50,19 @@ const Experience = ({ language }) => {
   const translation = translations[language];
 
   return (
-    <section className="experience-section">
+    <section id='experience' className="experience-section">
       <h2>{translation.title}</h2>
       <ul>
-        <li>
-          <h3>{translation.company}</h3>
-          <p className="position">{translation.position}</p>
-          <p>{translation.type}</p>
-          <p>{translation.date}</p>
-          <p>{translation.location}</p>
-          <p dangerouslySetInnerHTML={{ __html: translation.description }} />
-        </li>
+        {translation.experiences.map((experience, index) => (
+          <li key={index}>
+            <h3>{experience.company}</h3>
+            <p className="position">{experience.position}</p>
+            <p>{experience.type}</p>
+            <p>{experience.date}</p>
+            <p>{experience.location}</p>
+            <p dangerouslySetInnerHTML={{ __html: experience.description }} />
+          </li>
+        ))}
       </ul>
     </section>
   );
