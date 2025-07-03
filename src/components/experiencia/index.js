@@ -15,12 +15,20 @@ const translations = {
       },
       {
         company: 'EmComp - Empresa Júnior da Computação',
-        position: 'Assessora de Projetos',
+        position: 'Coordenadora de Projetos',
         type: 'Tempo Integral',
         date: 'Maio de 2023 - Presente',
         location: 'Rio Pomba, Minas Gerais, Brasil',
         description: 'Coordenação de projetos na EmComp, <strong>liderando equipes de desenvolvimento</strong> e <strong>gerenciando soluções tecnológicas</strong> para clientes e parceiros da empresa júnior.'
-      }
+      },
+      {
+        company: 'PET - Programa de Educação Tutorial',
+        position: 'Aluna Pesquisadora',
+        type: 'Meio Período',
+        date: 'Outubro 2023 - Presente',
+        location: 'Rio Pomba, Minas Gerais, Brasil',
+        description: 'Participação como aluna pesquisadora no PET, <strong>desenvolvendo projetos de pesquisa acadêmica</strong> e contribuindo para o programa.'
+      },
     ]
   },
   en: {
@@ -36,11 +44,19 @@ const translations = {
       },
       {
         company: 'EmComp - Computer Science Junior Company',
-        position: 'Project Advisor',
+        position: 'Project Coordinator',
         type: 'Full-Time',
         date: 'May 2023 - Present',
         location: 'Rio Pomba, Minas Gerais, Brazil',
         description: 'Project coordination at EmComp, <strong>leading development teams</strong> and <strong>managing technological solutions</strong> for clients and partners of the junior company.'
+      },
+      {
+        company: 'PET - Tutorial Education Program',
+        position: 'Research Student',
+        type: 'Half-Time',
+        date: 'October 2023 - Present',
+        location: 'Rio Pomba, Minas Gerais, Brazil',
+        description: 'Participation as research student in PET, <strong>developing academic research projects</strong>  and contributing to the program.'
       }
     ]
   }
@@ -48,7 +64,7 @@ const translations = {
 
 const Experience = ({ language }) => {
   const translation = translations[language];
-
+  
   return (
     <section id='experience' className="experience-section">
       <h2>{translation.title}</h2>
