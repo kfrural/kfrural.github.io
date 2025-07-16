@@ -4,9 +4,10 @@ import appBovino from '../../assets/telaAppBovino.jpg';
 import projAmeaca from '../../assets/projAmeaca.png';
 import chess from '../../assets/chess.png';
 //import velha from '../../assets/velha.png';
-import analise_leite from '../../assets/Analise_leite.png';
+// import analise_leite from '../../assets/Analise_leite.png';
 import churn from '../../assets/churn-prediction.png';
 import gerenciaAcademic from '../../assets/gerenciamento_estudo.png';
+import leiteintel from '../../assets/leiteintel.png';
 
 const translations = {
   'pt-BR': {
@@ -28,9 +29,9 @@ const translations = {
         link: 'https://github.com/kfrural/CyberThreatsMonitoringSystem'
       },
       {
-        title: 'Análise da Produção de Leite no Brasil',
-        description: 'Este projeto é um sistema de análise de dados para a produção de leite no Brasil, utilizando dados históricos para criar uma interface gráfica interativa que permite aos usuários visualizar e explorar diferentes aspectos da produção leiteira. Com dados sobre a produção total, por região e por estado, o sistema fornece uma visão abrangente da evolução da produção leiteira no país, permitindo análises detalhadas e previsões futuras.',
-        link: 'https://github.com/kfrural/analise_prod_Leite_Br'
+        title: 'LeiteIntel - Painel Inteligente para Análise de Produção de Leite',
+        description: 'O LeiteIntel é uma solução avançada de inteligência de negócios voltada para a cadeia produtiva do leite no Brasil. O sistema utiliza metodologias robustas como CRISP-DM para garantir um processo organizado e eficiente na análise de dados.Através do emprego de conceitos de Big Data, o sistema processa grandes volumes de informações relacionadas à produção, preços, condições climáticas e tecnologia agrícola, transformando-os em insights estratégicos valiosos para produtores rurais, técnicos e pesquisadores brasileiros.',
+        link: 'https://github.com/kfrural/leiteintel'
       },
       {
         title: 'Monitoramento Acadêmico Inteligente',
@@ -68,9 +69,9 @@ const translations = {
         link: 'https://github.com/kfrural/CyberThreatsMonitoringSystem'
       },
       {
-        title: 'Analysis of Milk Production in Brazil',
-        description: 'This project is a data analysis system for milk production in Brazil, utilizing historical data to create an interactive graphical interface that allows users to visualize and explore different aspects of milk production. With data on total production, by region and by state, the system provides a comprehensive view of the evolution of milk production in the country, enabling detailed analyses and future predictions.',
-        link: 'https://github.com/kfrural/analise_prod_Leite_Br'
+        title: 'LeiteIntel - Intelligent Dashboard for Milk Production Analysis',
+        description: 'LeiteIntel is an advanced business intelligence solution focused on the milk production chain in Brazil. The system uses robust methodologies such as CRISP-DM to ensure an organized and efficient process in data analysis. Through the use of Big Data concepts, the system processes large volumes of information related to production, prices, weather conditions and agricultural technology, transforming them into valuable strategic insights for Brazilian farmers, technicians and researchers.',
+        link: 'https://github.com/kfrural/leiteintel'
       },
       {
         title: "Smart Academic Monitoring",
@@ -103,7 +104,7 @@ const Project = ({ language }) => {
           <li key={index}>
             <h3>{project.title}</h3>
             <div className="imgText">
-              <img src={index === 0 ? appBovino : index === 1 ? churn : index === 2 ? projAmeaca : index === 3 ? analise_leite : index === 4 ? gerenciaAcademic :  chess } alt='Imagem do projeto' className='imgProjet' />
+              <img src={index === 0 ? appBovino : index === 1 ? churn : index === 2 ? projAmeaca : index === 3 ? leiteintel : index === 4 ? gerenciaAcademic :  chess } alt='Imagem do projeto' className='imgProjet' />
               <p>{project.description}</p>
             </div>
             <a href={project.link}>{language === 'pt-BR' ? 'Clique aqui para ver o projeto' : 'Click here to see the project'}</a>
