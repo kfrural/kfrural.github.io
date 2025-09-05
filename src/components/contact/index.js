@@ -41,6 +41,24 @@ const ContactComponent = ({ language }) => {
       if (error) {
         throw error;
       }
+      // Enviar para Formspree
+      const response = await fetch('https://formspree.io/f/xvgbvnqb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message
+        })
+      });
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Erro ao enviar o formulário');
+      }
+
+      alert(translation.successMessage);
       console.log(`${translation.successMessage} ${data}`);
       setName('');
       setEmail('');
@@ -50,7 +68,6 @@ const ContactComponent = ({ language }) => {
       alert(`${translation.errorMessage} ${error.message}`);
     }
   };
-
   return (
     <div className="contact" id='contato'>
       <div>
@@ -81,7 +98,7 @@ const ContactComponent = ({ language }) => {
       </div>
       <div>
         <h2>{translation.contactInfoTitle}</h2>
-        <p>E-mail: <a href="mailto:kferreira_@outlook.com?subject=Currículo Web&body=">kferreira_@outlook.com</a></p>
+        <p>E-mail: <a href="mailto:kferreira_@outlook.com?subject=Currículo Web&body=">kferreira7581@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/karla-ferreira-rural/">karla-ferreira-rural</a></p>
         <p>GitHub: <a href="https://github.com/kfrural">kfrural</a></p>
         <p>Instagram: <a href="https://www.instagram.com/kf.rural/">@kf.rural</a></p>

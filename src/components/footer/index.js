@@ -20,7 +20,7 @@ const Footer = ({ language }) => {
     <footer className='footer'>
       <div className='footer-content'>
         <div className='social-icons'>
-          <a href="mailto:kferreira_@outlook.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:kferreira7581@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope />
           </a>
           <a href="https://www.linkedin.com/in/karla-ferreira-rural/" target="_blank" rel="noopener noreferrer">
